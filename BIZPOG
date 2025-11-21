@@ -15,9 +15,12 @@ answers = ("C", "B", "B", "C", "B")
 guesses = []
 score = 0
 question_num = 0
+<<<<<<< HEAD
 
 for question in questions: 
     print("-------------------")
     print(question)
     for options in options[question_num]:
         print(options)
+=======
+>>>>>>> 2a5a6d46d4b37b486e9889d4882288253949b5f5
