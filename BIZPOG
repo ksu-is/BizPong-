@@ -1,0 +1,17 @@
+questions = ("Which of the following is not of the 4 P's in a marketing mix?: ", 
+             "Market segmentation involves dividing a market based on?: ",
+             " A company using a penetration procong strategy is most likely trying to?: ",
+               "A brands value to a company, it's awareness, loyalty, and percieved quality, is known as?:",
+                 "Public Realations (PR) is always paid media.")
+
+options = (("A ","B ","C ","D "), 
+           ("A ","B ","C ","D "),
+           ("A ","B ","C ","D "),
+           ("A ","B ","C ","D "),
+           ("A ","B ","C ","D "))
+          
+
+answers = ()
+guesses = []
+score = 0
+question_num = 0
