@@ -4,14 +4,20 @@ questions = ("Which of the following is not of the 4 P's in a marketing mix?: ",
                "A brands value to a company, it's awareness, loyalty, and percieved quality, is known as?:",
                  "Public Realations (PR) is always paid media.")
 
-options = (("A ","B ","C ","D "), 
-           ("A ","B ","C ","D "),
-           ("A ","B ","C ","D "),
-           ("A ","B ","C ","D "),
-           ("A ","B ","C ","D "))
-          
+options = (("A. Product ","B. Promotion ","C. Production  ","D. Price"), 
+           ("A. Product features ","B. Customer characteristics ","C. Advertising budgets ","D. Sales quotas "),
+           ("A. Maximize profits quickly  ","B. Enter a market with a low price ","C. Target high-end consumers ","D. Avoid competition "),
+           ("A. Comparative advertising ","B. Product advertising ","C. Institutional advertising ","D. Reminder advertising "),
+           ("A. True", "B. False"))
+           
 
-answers = ()
+answers = ("C", "B", "B", "C", "B")
 guesses = []
 score = 0
 question_num = 0
+
+for question in questions: 
+    print("-------------------")
+    print(question)
+    for options in options[question_num]:
+        print(options)
