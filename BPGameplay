@@ -1,1 +1,3 @@
 # This is were you will be playing the game!
+In this commit, we will be formating the questions and answers for the game,
+While also adding the amount of options each question has and the amount of gueses the player has. 
